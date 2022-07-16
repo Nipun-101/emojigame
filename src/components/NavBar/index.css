@@ -1,1 +1,35 @@
-/* Write your code here. */
+.navbar-container {
+  height: 40px;
+  background-image: linear-gradient(to bottom, #938ccc, #7168c0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.nav-bar-text {
+  font-size: 14px;
+  font-family: roboto;
+  color: white;
+}
+.text-weight {
+  font-weight: 800;
+}
+.score-container {
+  display: flex;
+  align-items: center;
+}
+.margin-right-score {
+  margin-right: 10px;
+}

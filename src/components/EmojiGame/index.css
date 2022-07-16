@@ -3,4 +3,20 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.emoji-list-container {
+  list-style: none;
+  margin-top: 30px;
+  width: 90%;
+  max-width: 880px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.game-sts-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
